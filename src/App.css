@@ -1,4 +1,11 @@
-button{
+.project{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button{
   width: 100px;
   height: 100px;
   background-color: white;
@@ -10,4 +17,20 @@ button{
   display: flex;
   width: 300px;
   flex-wrap: wrap;
+}
+.header{
+  width: 300px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+.header h1{
+  font-size: 2.2em;
+}
+.header p{
+  font-size: 1.2em;
+}
+.resetButton{
+  margin: 2em;
+  padding: 5px 10px;
 }
